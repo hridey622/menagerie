@@ -58,5 +58,7 @@ Front: Along body X-axis
         <motor ctrllimited="true" ctrlrange="0 1" gear="0 0 1 0 0 -.1" site="motor_back_right"/>
         <motor ctrllimited="true" ctrlrange="0 1" gear="0 0 1 0 0 .1" site="motor_front_right"/>
     </actuator>
-
+    <keyframe>
+        <key name="hover" qpos="0 0 0.1 1 0 0 0" ctrl="0.26487 0 0 0"/>
+    </keyframe>
 </mjx>
