@@ -3,7 +3,7 @@ Quadcopter with x configuration.
 Front: Along body X-axis
 -->
 
-<mjx model="quadrotor_x">
+<mujoco model="quadrotor_x">
     <compiler angle="degree" inertiafromgeom="true" coordinate="local"/>
     <option	timestep="0.01" gravity="0 0 -9.81" density="1" viscosity="1e-5" integrator="RK4"/>
 
@@ -61,4 +61,4 @@ Front: Along body X-axis
     <keyframe>
         <key name="hover" qpos="0 0 0.1 1 0 0 0" ctrl="0.26487 0 0 0"/>
     </keyframe>
-</mjx>
+</mujoco>
